@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Boekingsformulier</h1>
+    <br>
+    <label for="">Voornaam:  </label><input type="text">
+    <br> <br>
+    <label for="">Achternaam:  </label><input type="text">
+    <br><br> 
+    <label for="">Geslacht:  </label> <label for="">Vrouw</label><input type="radio"> <label for="">Man</label> <input type="radio">
+    <br> <br>
+
+    <label for="">straat en huisnummer:   </label><input type="text">
+    <br><br>
+    <label for="">Postcode:  </label><input type="text">
+    <br><br>
+    <label for="">Stad:  </label> <input type="text">
+    <br><br>
+  <label for="">Land:  </label><input type="text">
+  <br><br>
+  <label for="">BSN Nummer:  </label> <input type="text" name="" maxlength="9" id="">
+  <br><br>
+  <div>
+    <label for="Vakantieland">Vakantieland</label>
+    <select name="" id=""><option value="Nederland">Nederland</option>
+        <option value="Spanje">Spanje</option>
+        <option value="Frankrijk">Frankrijk</option>
+        <option value="Zweden">Zweden</option>
+        <option value="Noorwegen">Noorwegen</option>
+    </select>
+  </div>
+   <br>
+ <!-- Datum van vertrek -->
+ <label for="vertrekdatum">Datum van vertrek:</label>
+ <input type="date" id="vertrekdatum" name="vertrekdatum" min="?= date('Y-m-d'); ?>" required>
+ <br><br>
+ <!-- Datum van terugkomst -->
+ <label for="terugkomstdatum">Datum van terugkomst:</label>
+ <input type="date" id="terugkomstdatum" name="terugkomstdatum" required>
+ <br><br>
+ <div>
+    <label for="Aantal reisgenoten (max 4 mensen)">Aantal reisgenoten (max 4 mensen) </label>
+    <select name="" id=""><option value=""></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+  </div>
+  <br>
+  <label for="">E-mail:  </label> <input type="text">
+  <br><br>
+  <label for="">Password:  </label><input type="password" name="" id="">
+  <br><button>Boek Nu</button>
+</body>
+</html>
