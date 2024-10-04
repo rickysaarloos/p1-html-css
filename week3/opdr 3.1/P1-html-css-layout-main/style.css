@@ -8,6 +8,14 @@ html {
 }
 body {
   font-family: "Goldman", cursive;
+  height: 100vh;
+  color: white;
+  background-image: url(img/background.jpeg);
+ background-position: center;
+ color: rgb(255, 255, 255);
+ background-size: cover;
+background-repeat: no-repeat;
+
 }
 
 nav {
@@ -37,3 +45,78 @@ nav a {
 nav img {
   width: 5vw;
 }
+footer {
+  color: #00a8c7;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 20px; 
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  text-align: center;
+  margin-top: 15%;
+}
+
+
+.firstyear {
+text-align: center;
+padding-top: 50%;
+padding-bottom: 50%;
+}
+
+.htmlcontent {
+  text-align: center;
+  color: #000;
+}
+#Javascriptpage{
+background-color: black;
+background-image: none;
+}
+#Phppage{
+background-color: white;
+background-image: none;
+}
+.phptext{
+color: #000;
+margin-bottom: 15%;
+padding-left: 10%;
+padding-right: 10%;
+font-weight: 10%;
+}
+#watisphp{
+  color: blueviolet;
+}
+#htmlpage{
+color: white;
+background-image: none;
+}
+#HTMLtitle{
+  color: #000;
+}
+#watishtml{
+color: rgb(56, 113, 219);
+}
+#watiscss{
+  color: rgb(240, 100, 0);
+}
+#phptitle{
+  color: #000;
+  margin-top: 8%;
+  font-size: 35px;
+}
+#PHPkopje{
+  color: #000;
+  position: absolute;
+  margin-top: 4%;
+  margin-left: 3%;
+  font-size: 50px;
+}
+h1{
+  font-weight: bold
+}
+
