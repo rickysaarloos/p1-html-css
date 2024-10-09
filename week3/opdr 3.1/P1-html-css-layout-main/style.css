@@ -54,7 +54,6 @@ footer {
 }
 
 h1, h2, h3, h4, h5 {
-  font-weight: bold;
   position: absolute;
   left: 50%;
   top: 15%;
@@ -87,6 +86,10 @@ margin-bottom: 15%;
 padding-left: 10%;
 padding-right: 10%;
 font-weight: 10%;
+text-align: left;
+font-size: 175%;
+line-height: 27px;
+word-spacing: 5px;
 }
 #watisphp{
   color: blueviolet;
@@ -104,10 +107,12 @@ color: rgb(56, 113, 219);
 #watiscss{
   color: rgb(240, 100, 0);
 }
-#phptitle{
+.PHPtitle{
   color: #000;
   margin-top: 8%;
   font-size: 35px;
+  padding-left: 10%;
+  padding-top: 4%;
 }
 #PHPkopje{
   color: #000;
