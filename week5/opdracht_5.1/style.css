@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Goldman", sans-serif;
+  height: 100vh;
+  color: white;
+  background-position: center;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 10vh;
+}
+nav {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  background: #00a8c7;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  width: 5vw;
+}
+footer {
+  position: relative;
+  background-color: #00a8c7;
+  color: white;
+  bottom: 0;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+.watishtmlcss {
+  position: absolute;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  margin-top: 5rem;
+  width: 300px;
+  overflow: hidden;
+  margin-left: 68rem;
+  text-align: left;
+  font-weight: bold;
+  font-size: large;
+  white-space: nowrap;
+  scale: 160%;
+}
+.kleur1 {
+  color: #00a8c7;
+}
+.kleur2 {
+  color: #ef5838;
+}
+.firstyear {
+  position: absolute;
+  font-weight: bold; 
+  color: white; 
+  top: 55%;
+  left: 50%; 
+  text-align: center;
+  font-size: 2.5rem;
+  transform: translate(-50%,-50%);
+  }
+.htmlcontent {
+  text-align: left;
+  color: black;
+  margin-top: 7rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  width: 33%;
+margin-left: 40%;
+margin-right: 70%;
+line-height: 150%;
+}
+.phpcontent {
+  text-align: center;
+  color: black;
+  margin-top: 4rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.htmlpicca {
+  float: left;
+height: 10%;
+width: 30%;
+margin-left: 5%;
+}
+footer {
+  position: fixed;
+    background-color: #00a8c7; 
+    color:white;
+    text-align: center;
+    padding: 20px;
+    bottom: 0%;
+    width: 100%;
+}
+.javascriptpicca {
+  float: right;
+  margin-top: 7%;
+  margin-right: 370px;
+  width: 250px;
+
+}
+.watisjavascript {
+  position: absolute;
+  left: 29rem;
+  top: 19rem;
+  font-weight: bold;
+  text-align: left;
+  scale: 150%;
+  color: white;
+  margin-top: 95px;
+  width: 300px;
+  overflow: hidden;
+  text-align: left;
+  font-weight: bold;
+  font-size: large;
+  white-space: nowrap;
+}
+.kleur3 {
+  color: yellow;
+}
+.javascriptcontent {
+  text-align: left;
+  width: 32%;
+  margin-left: 15%;
+  overflow: hidden;
+  color: white;
+  margin-top: 10rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 150%;
+}
+.phppicca {
+  float: left;
+  margin-top: 15rem;
+  margin-left: 15rem;
+  width: 30%;
+  height: auto;
+  padding-right: 150px;
+}
+.phpcontent {
+  text-align: left;
+  color: black;
+  margin-top: 6rem;
+  margin-left: 60rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  width: 40%;
+  padding-right: 6%;
+line-height: 150%;
+}
+.watisphp {
+  position: absolute;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  margin-top: 5rem;
+  width: 300px;
+  overflow: hidden;
+  margin-left: 70rem;
+  text-align: left;
+  font-weight: bold;
+  font-size: large;
+  white-space: nowrap;
+  scale: 160%;
+}
+.kleur4 {
+  color: rgb(133, 98, 187);
+}
+.sqlpicca {
+  float: right;
+  margin-top: 11%;
+  margin-right: 410px;
+  width: 330px;
+}
+.sqlcontent {
+  text-align: left;
+  width: 29%;
+  margin-left: 23rem;
+  overflow: hidden;
+  color: white;
+  margin-top: 16rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+ 
+}
+.watissql {
+  position: absolute;
+  left: 38rem;
+  top: 15rem;
+  font-weight: bold;
+  text-align: center;
+  scale: 200%;
+  color: white;
+  margin-top: 195px;
+  width: 300px;
+  overflow: hidden;
+  text-align: left;
+  font-weight: bold;
+  font-size: large;
+  white-space: nowrap;
+}
+.kleur5 {
+  color: orange;
+}
+.htmlcss {
+  color: black;
+  text-align: center;
+  margin-top: 90px;
+  scale: 200%;
+  position: relative;
+  margin-right: 15%;
+}
+.php {
+  color: black;
+  text-align: center;
+  margin-top: 90px;
+  scale: 200%;
+  position: relative;
+  margin-left: -10%;
+}
+.javascript {
+  color: white;
+  text-align: center;
+  margin-top: 90px;
+  scale: 200%;
+  position: relative;
+}
+.sql {
+  color: white;
+  text-align: center;
+  margin-top: 90px;
+  scale: 200%;
+  position: relative;
+}
+
+
+.contacttxt{
+  text-align: left;
+  color: black;
+  margin-top: 1rem;
+  margin-left: 55rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+
+  padding-right: 6%;
+
+
+}
