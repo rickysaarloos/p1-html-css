@@ -258,7 +258,6 @@ line-height: 150%;
   position: relative;
 }
 
-
 .contacttxt{
   text-align: left;
   color: black;
@@ -266,8 +265,51 @@ line-height: 150%;
   margin-left: 55rem;
   font-size: 1.6rem;
   font-weight: bold;
-
   padding-right: 6%;
+}
 
+.jaar2 a {
+    position: relative;
+}
 
+.jaar2:hover a {
+    color: #00a8c7;
+    background-color: white;
+    padding: 0px;
+}
+
+.jaar2:hover::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    left: 100%;
+    margin-left: 5px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.jaar2:hover .dropdown {
+    display: block;
+}
+
+.dropdown li {
+    width: 400px;
+    height: 60px;
+}
+
+.dropdown a {
+    color: black;
+    padding: 10px;
+}
+
+.dropdown a:hover {
+    background-color: #E9E9E9;
+  
 }
